@@ -90,6 +90,11 @@ bash get_weights.sh
 python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --output_dir ./outputs --encoder vitl
 ```
 
+### Inference a video on Mac
+```bash
+python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --output_dir ./outputs --encoder vits --fp32
+```
+
 Options:
 - `--input_video`: path of input video
 - `--output_dir`: path to save the output results

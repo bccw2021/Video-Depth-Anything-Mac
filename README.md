@@ -92,6 +92,8 @@ python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --o
 
 ### Inference a video on Mac
 ```bash
+python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --output_dir ./outputs --encoder vits
+or
 python3 run.py --input_video ./assets/example_videos/davis_rollercoaster.mp4 --output_dir ./outputs --encoder vits --fp32
 ```
 
